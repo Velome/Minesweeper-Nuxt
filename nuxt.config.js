@@ -1,4 +1,3 @@
-
 export default {
   mode: 'spa',
   /*
@@ -52,4 +51,13 @@ export default {
     extend(config, ctx) {
     }
   }
+  /**
+  * Gitlab
+  */
+  router: {
+     base: '/',  
+  },
+  generate: {
+     dir: 'public',
+  },
 }
